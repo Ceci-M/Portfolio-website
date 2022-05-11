@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<body>
+
+    <div class="background-image"></div>
+    <div class="container">
+        <div style="text-align:center">
+        <h2><i>Want to know more?</i></h2>
+        <p>Leave us a message</p>
+        <form>
+            <input type="text" class="input-field" placeholder="Name">
+            <input type="email" class="input-field" placeholder="Email">
+            <input type="text" class="input-field" placeholder="Subject">
+            <textarea type="text" class="input-field textarea-field" placeholder="Your message">
+            </textarea>
+            <button type="button" class="btn">Send</button>
+        </form>
+                <img src="/images/Ceci.png"
+                style="width:100%">
+            </div>
+            <div class="column">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<style>
+    * {
+      margin:0;
+      padding:0;
+    }
+    h2 {
+        margin-top: 10px;
+        color: rgb(208, 207, 214);
+        font-size: 36px;
+        font-family: 'Lucida Sans Bold' sans-serif;
+    }
+    p {
+        margin-top: 10px;
+        background-color: rgb(208, 207, 214);
+        font-size: 16px;
+        font-family: 'Lucida Sans' sans-serif;
+    }
+    .background-image { 
+      background-image: url(./images/DigiWaves.jpeg);
+      background-size:cover;
+      width: 100vh; 
+      height: 100vh;
+      background-repeat: no-repeat;
+     }
+    .container{
+        width: 500px;
+        background-color:rgb(9, 5, 111);
+        box-shadow: 0 0 20px 0 rgb(76, 5, 108);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position:absolute;
+    }
+    form{
+        margin:35px;    
+    }
+    .input-field
+    {
+        width: 400px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border: 1px solid #777;
+        border-radius: 14px;
+        outline: none;
+    }
+    .textarea-field
+    {
+        height:150px;
+        padding-top:10px;
+    }
+    .btn
+    {
+        border-radius: 20px;
+        color:rgba(8, 6, 97, 0.869);
+        margin-top:18px;
+        padding:10px;
+        background-color: rgba(237, 12, 222, 0.717);
+        font-size:12px;
+        border:none;
+        cursor: pointer;
+    }
+</style>
+</html>
