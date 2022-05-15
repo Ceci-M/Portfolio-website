@@ -6,15 +6,31 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
-.section {
-  background-image:url("images/DigiWaves.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top;
+html, body{
+  height: 100%;
 }
-::selection{
-  color: rgba(1, 186, 174, 0.769);
-  background: rgba(10, 239, 29, 0.765);
+#container1 {
+  min-height: 100%;
+}
+#main {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+#footer {
+  background-color: #bc07f3;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  clear:both;
+}
+.footer-text-left {
+  text-align: center;  
+  color: burlywood;
+}
+body{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 nav{
   position: fixed;
@@ -60,14 +76,6 @@ nav .menu{
   background: rgb(240, 12, 115);
   color: rgb(141, 17, 230);
 }
-.img {
-  background: url(/images/DigiWaves.jpg) no-repeat;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
 .img::before{
   content: '';
   position: absolute;
@@ -83,6 +91,7 @@ nav .menu{
   width: 100%;
   padding: 0 20px;
   text-align: center;
+  flex: 1 0 auto;
 }
 .center .title{
   color: rgba(237, 9, 184, 0.922);
@@ -128,16 +137,20 @@ animation: typing 5s forwards;
   transition: all 0.3s ease;
 }
 .center .btns button:first-child{
-  color: grey;
+  color:gray;
   background: none;
 }
 .btns button:first-child:hover{
-  background: white;
+  background: rgb(73, 14, 234);
   color: black;
 }
 .center .btns button:last-child{
-  background: white;
-  color: black;
+  color:grey;
+  background:none;
+}
+.btns button:last-child:hover{
+    background: rgb(73, 14, 234);
+    color: black;
   /*Start of Services.html*/ 
 }
 .article{
