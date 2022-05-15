@@ -123,22 +123,45 @@ nav .menu{
   background: white;
   color: black;
 }
-.gallery-scroll {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: 100;
-  padding: 100;
-  background-color: #f0f0f0;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  overflow-x: scroll;
+.article{
+display: wrap;
+margin-top: 500px;
+
 }
 .gallery-item {
+  height: 1000px;
+  width: 1000px;
   padding: 100%;
   font-size:small;
-  text-align: center;
+  text-align: left;
   background-color: white;
-  color: black;
-  scroll-snap-align: center;
+  color:black;
+  box-sizing: content-box;
+  align-items: flex-start;
+  display: contents; 
+  flex-wrap: wrap;
 }
-
+.gallery-img1{
+  content: url(images/SEO.jpg);
+  position: relative;
+  height: 500px;
+  width: 500px;
+  align-content: center;
+  word-wrap: normal;
+}
+.gallery-img2{
+  content: url(images/Design.jpg);
+  position: left;
+  height: 500px;
+  width: 500px;
+  align-content: center;
+  word-wrap:normal;
+}
+.gallery-img3{
+  content: url(images/marketing.jpg);
+  position: left;
+  height: 500px;
+  width: 500px;
+  align-content: center;
+  word-wrap:normal;
+}
