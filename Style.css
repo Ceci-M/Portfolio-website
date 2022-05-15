@@ -94,6 +94,22 @@ nav .menu{
   font-size: 52px;
   font-weight: 600;
 }
+.center .typed-out{
+overflow: hidden;
+border-right: .15em solid rgba(237, 9, 184, 0.922);
+white-space: nowrap;
+font-size: 55px;
+font-weight: 600;
+width: 0;
+animation: typing 5s forwards;
+}
+.container { 
+  display: inline-block;
+}
+@keyframes typing{
+  from { width: 0}
+  to { width: 100%}
+}
 .center .btns{
   margin-top: 20px;
 }
@@ -122,6 +138,7 @@ nav .menu{
 .center .btns button:last-child{
   background: white;
   color: black;
+  /*Start of Services.html*/ 
 }
 .article{
 display: wrap;
@@ -164,4 +181,5 @@ margin-top: 500px;
   width: 500px;
   align-content: center;
   word-wrap:normal;
+  /*End of Services.html*/ 
 }
