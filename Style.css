@@ -123,4 +123,22 @@ nav .menu{
   background: white;
   color: black;
 }
+.gallery-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 100;
+  padding: 100;
+  background-color: #f0f0f0;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+}
+.gallery-item {
+  padding: 100%;
+  font-size:small;
+  text-align: center;
+  background-color: white;
+  color: black;
+  scroll-snap-align: center;
+}
 

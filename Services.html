@@ -5,36 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background-image">
-        <div class="hero-text">
-            <h1>I am Ceci Rose</h1>
-            <p>And I'm a Web Developer</p>
-            <button>Hire Me</button>
+    <nav><!-- start navigation menu> -->
+        <div class="menu">
+             <div class="logo">
+                <a href="index.html">My Portfolio</a>
         </div>
-    </div> 
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+            </ul> 
+        </div>
+    </nav>
+    <div class="center">
+      <div class="title">Services we offer</div>
+      <div class="sub_title">My Portfolio</div>
+      <div class="btns">
+        <button><a href="index.html">Home</a></button>
+        <button><a href="Contact.html">Contact</a></button>
+    
+    <h1>How can we help you?</h1>
+    <article class="gallery-item">
+        <h1>SEO</h1>
+        <p>Search Engine Optimisation</p>
+         <figure>
+             <img class="gallery-img" src="" alt="SEO" width="500" height="500">
+             <figcaption>SEO</figcaption>
+        </figure>
+    </article>
+        <figure class="gallery-item">
+          <img class="gallery-img" src="/images/Design.jpg" alt="Design services" title="Web Design">
+          <figcaption>Web Design</figcaption>
+        </figure>
+        <figure class="gallery-item">
+            <img class="gallery-img" src="/images/hosting.jpeg" alt="web hosting services" id="WebHosting">
+            <figcaption>Web Hosting</figcaption>
+        </figure>
+    </div>
 </body>
 <style>
-/* The hero image */
-*{
-    margin:0%;
-    padding:0%;
-}
-.background-image { 
-      background-image: url(./images/Ceci.png);
-      background-size:cover;
-      width: 100vh; 
-      height: 100vh;
-      background-repeat: repeat;
-}
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  color: green;
-}
+
 </style>
 </html>
